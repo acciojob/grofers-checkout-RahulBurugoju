@@ -24,7 +24,7 @@ const getSum = () => {
 
   const td = document.createElement("td");
   td.colSpan = 2;
-
+  td.id = "ans"; 
   td.textContent = `Total Price: Rs ${total}`;
 
   tr.appendChild(td);
